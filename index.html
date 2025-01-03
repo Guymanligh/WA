@@ -26,12 +26,19 @@
             background-color: red;
             border: none;
             border-radius: 50px;
+            cursor: pointer;
         }
         button:hover{
             background-color: #1bc22f;
             transition: 2s ease;
             text-decoration: underline;
         }
+        button:not(:hover){
+        background-color: red;
+        transition: 2s ease;
+        text-decoration: none;
+        }
+
         #first{
             margin-bottom: 30px;
         }
