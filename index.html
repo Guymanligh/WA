@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Script actived</title>
+    <style>
+        *{
+            font-family: Arial,Sans-Serif;
+        }
+        .wrapper {
+            position: relative;
+            height: 100%;
+            /* Лучше на весь экран */
+            border: 1px solid black;
+        }
+
+        .info {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            max-width: 600px;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        p{
+            margin-bottom: 10px;
+        }
+        .find{
+            color: green;
+        }
+        .unfind{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="info">
+            <h1>Информация после скрипта :</h1>
+            <p>
+                Имя : <strong class="find">Өмірбек Аяулым Дарханқызы</strong>
+            </p>
+            <p>
+                Дата рождения : <strong class="find">28.07.2011</strong>
+            </p>
+            <p>
+                ИИН : <strong class="find">110728602660</strong>
+            </p>
+            <p>
+                Адрес : <strong class="find">Центральный 52/1кв.45</strong>
+            </p>
+            <p>
+                Возможный телефон родителя : <strong class="find">87784614130</strong>
+            </p>
+            <p>
+                Доп. информация : <strong class="unfind">нету</strong>
+            </p>
+            <p>
+                Записи в других источниках : <strong class="unfind">не найдена</strong>
+            </p>
+            <p>
+                Учетные записи : <strong class="unfind">не найдены</strong>
+            </p>
+            <p>
+                Медиафайлы : <strong class="unfind">не найдены</strong>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
